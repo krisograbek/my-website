@@ -20,27 +20,21 @@ const useStyles = makeStyles((theme) => ({
     }
   }));
 
-function Navbar(){
+function Navbar(props){
     const classes = useStyles();
-    const navList = [
-        "Blog", 
-        "Journal", 
-        "Small wins",
-        "Fav Books",
-        "Models",
-        "About Me",
-        "Iza"
-    ]
+
 
     return (
-    <Grid container xs={9} className={classes.grid}>
-      {navList.map((listItem) => 
-        <Grid item className={classes.item}>
-          <Typography className={classes.paper} >
-            <MyLink text={listItem} />
-          </Typography>
-        </Grid>
-      )}
+    <Grid item xs={9}>
+      <Grid container className={classes.grid}>
+        {props.navList.map((listItem, key) => 
+          <Grid item className={classes.item} key={key}>
+            <Typography className={classes.paper} >
+              <MyLink text={listItem} />
+            </Typography>
+          </Grid>
+        )}
+      </Grid>
     </Grid>
   );
 }
