@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
     paper: {
       padding: theme.spacing(2),
       textAlign: 'center',
-    //   background: theme.palette.success.light,
+      // background: theme.palette.success.light,
     }
   }));
 
@@ -28,42 +28,20 @@ function Navbar(){
         "Small wins",
         "Fav Books",
         "Models",
-        "About Me"
+        "About Me",
+        "Iza"
     ]
 
     return (
     <Grid container xs={9} className={classes.grid}>
-        {navList.map((listItem) => 
-            <Grid item className={classes.item}>
-                <Typography className={classes.paper} >
-                    <MyLink text={listItem} />
-                </Typography>
-            </Grid>
-        )}
+      {navList.map((listItem) => 
+        <Grid item className={classes.item}>
+          <Typography className={classes.paper} >
+            <MyLink text={listItem} />
+          </Typography>
+        </Grid>
+      )}
     </Grid>
-
-    //   <Grid container xs={9} className={classes.grid}>
-    //     <Grid item className={classes.item}>
-    //       <Typography className={classes.paper} >
-    //           <MyLink text="Blog" />
-    //       </Typography>
-    //     </Grid>
-    //     <Grid item className={classes.item}>
-    //       <Paper className={classes.paper}>Journal</Paper>
-    //     </Grid>
-    //     <Grid item className={classes.item}>
-    //       <Paper className={classes.paper}>Small wins</Paper>
-    //     </Grid>
-    //     <Grid item className={classes.item}>
-    //       <Paper className={classes.paper}>Fav Books</Paper>
-    //     </Grid>
-    //     <Grid item className={classes.item}>
-    //       <Paper className={classes.paper}>Models</Paper>
-    //     </Grid>
-    //     <Grid item className={classes.item}>
-    //       <Paper className={classes.paper}>About Me</Paper>
-    //     </Grid>
-    //   </Grid>
   );
 }
 
