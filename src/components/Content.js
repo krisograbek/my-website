@@ -1,3 +1,4 @@
+import { Grid } from "@material-ui/core";
 import React from "react";
 import { Route, Switch } from "react-router";
 import About from "./About";
@@ -10,39 +11,34 @@ import SmallWins from "./SmallWins";
 
 function Content(){
 
-//   const list = [
-//     "blog", 
-//     "journal", 
-//     "smallwins",
-//     "favbooks",
-//     "models",
-//     "aboutme"
-// ]
-
   return (
-    <Switch>
-      <Route exact path="/">
-        <Home />
-      </Route>
-      <Route path="/blog">
-        <Blog />
-      </Route>
-      <Route path="/journal">
-        <Journal />
-      </Route>
-      <Route path="/smallwins">
-        <SmallWins />
-      </Route>
-      <Route path="/favbooks">
-        <FavBooks />
-      </Route>
-      <Route path="/models">
-        <Models />
-      </Route>
-      <Route path="/about">
-        <About />
-      </Route>
-    </Switch>
+    <Grid container>
+      <Grid item>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/blog">
+          <Blog />
+        </Route>
+        <Route path="/journal">
+          <Journal />
+        </Route>
+        <Route path="/smallwins">
+          <SmallWins />
+        </Route>
+        <Route path="/favbooks">
+          <FavBooks />
+        </Route>
+        <Route path="/models">
+          <Models />
+        </Route>
+        <Route path="/about">
+          <About />
+        </Route>
+      </Switch>
+      </Grid>
+    </Grid>
   )
 }
 
