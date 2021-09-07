@@ -24,11 +24,11 @@ function Logo(){
     return (
       <Grid item xs={3}>
         <Grid container spacing={4} className={classes.grid}>
-          <Paper>
-            <Link to="/">
-                Logo
-            </Link>
-          </Paper>
+          <Link to="/">
+            <Paper className={classes.paper}>
+              KRIS O.
+            </Paper>
+          </Link>
         </Grid>
       </Grid>
   );
