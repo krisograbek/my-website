@@ -1,27 +1,25 @@
 import React from "react";
 import { Grid, Paper } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core";
-import { mergeClasses } from "@material-ui/styles";
-
 
 
 const useStyles = makeStyles((theme) => ({
     root: {
-      flexGrow: 1,
+        flexGrow: 1,
     },
     paper: {
-      padding: theme.spacing(2),
-      textAlign: 'center',
-      color: theme.palette.text.secondary,
+        padding: theme.spacing(2),
+        textAlign: 'center',
+        color: theme.palette.text.secondary,
     },
-  }));
+}));
 
 
-export default function Test(){
+export default function Test() {
     const classes = useStyles()
 
-    return(
-        <Grid 
+    return (
+        <Grid
             container
             // justifyContent="flex-end"
             // alignContent="space-between"

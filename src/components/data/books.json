@@ -1,0 +1,38 @@
+{
+    "dataScience": [
+        {
+            "title": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow",
+            "link": "link1",
+            "author": "Aurelion Geron",
+            "authorLink": "krisograbek.github.io/favBooks",
+            "description": "Hellow yellow",
+            "impact": "In my opinion, this book is the most comprehensive single resource to learn Machine Learning"
+        },
+        {
+            "title": "Approaching (Almost) Any Machine Learning Problem",
+            "link": "link2",
+            "author": "Abhishek Thakur",
+            "authorLink": "krisograbek.github.io/favBooks",
+            "description": "Hellow yellow",
+            "impact": "Mega Hands-On. Abhishek is beyond cool"
+        }
+    ],
+    "personalGrowth": [
+        {
+            "title": "Seven Habits of Highly Effective People",
+            "link": "link3",
+            "author": "Stephen R. Covey",
+            "authorLink": "",
+            "description": "Hellow yellow",
+            "impact": "Personal #1. Made me realize my life far from an independent one. I learned the word \"proactive\" which became a life-changer"
+        },
+        {
+            "title": "You Are a Badass",
+            "link": "link4",
+            "author": "Jen Sincero",
+            "authorLink": "krisograbek.github.io/favBooks",
+            "description": "Hellow yellow",
+            "impact": "Made me realize I'm still shitting my pants when things get uncomfortable. Also, I was lying to myself this wasn't true"
+        }
+    ]
+}
