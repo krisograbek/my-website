@@ -10,6 +10,7 @@
 
 # production
 /build
+deploysteps.txt
 
 # misc
 .DS_Store
