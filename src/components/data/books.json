@@ -1,0 +1,34 @@
+{
+    "dataScience": [
+        {
+            "title": "First Book",
+            "link": "link1",
+            "author": "Books author",
+            "description": "Hellow yellow",
+            "impact": "Why this book?"
+        },
+        {
+            "title": "Second Book",
+            "link": "link2",
+            "author": "Books author",
+            "description": "Hellow yellow",
+            "impact": "Why this book?"
+        }
+    ],
+    "personalGrowth": [
+        {
+            "title": "First Book personal",
+            "link": "link3",
+            "author": "Books author",
+            "description": "Hellow yellow",
+            "impact": "Why this book?"
+        },
+        {
+            "title": "Second Book personal",
+            "link": "link4",
+            "author": "Books author",
+            "description": "Hellow yellow",
+            "impact": "Why this book?"
+        }
+    ]
+}
