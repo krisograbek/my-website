@@ -1,34 +1,38 @@
 {
     "dataScience": [
         {
-            "title": "First Book",
+            "title": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow",
             "link": "link1",
-            "author": "Books author",
+            "author": "Aurelion Geron",
+            "authorLink": "krisograbek.github.io/favBooks",
             "description": "Hellow yellow",
-            "impact": "Why this book?"
+            "impact": "In my opinion, this book is the most comprehensive single resource to learn Machine Learning"
         },
         {
-            "title": "Second Book",
+            "title": "Approaching (Almost) Any Machine Learning Problem",
             "link": "link2",
-            "author": "Books author",
+            "author": "Abhishek Thakur",
+            "authorLink": "krisograbek.github.io/favBooks",
             "description": "Hellow yellow",
-            "impact": "Why this book?"
+            "impact": "Mega Hands-On. Abhishek is beyond cool"
         }
     ],
     "personalGrowth": [
         {
-            "title": "First Book personal",
+            "title": "Seven Habits of Highly Effective People",
             "link": "link3",
-            "author": "Books author",
+            "author": "Stephen R. Covey",
+            "authorLink": "",
             "description": "Hellow yellow",
-            "impact": "Why this book?"
+            "impact": "Personal #1. Made me realize my life far from an independent one. I learned the word \"proactive\" which became a life-changer"
         },
         {
-            "title": "Second Book personal",
+            "title": "You Are a Badass",
             "link": "link4",
-            "author": "Books author",
+            "author": "Jen Sincero",
+            "authorLink": "krisograbek.github.io/favBooks",
             "description": "Hellow yellow",
-            "impact": "Why this book?"
+            "impact": "Made me realize I'm still shitting my pants when things get uncomfortable. Also, I was lying to myself this wasn't true"
         }
     ]
 }
