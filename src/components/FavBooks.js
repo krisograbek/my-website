@@ -1,6 +1,6 @@
-import React from "react";
 import { Grid, Link } from "@material-ui/core";
-import books from './data/books.json'
+import React from "react";
+import books from './data/books.json';
 
 
 function FavBooks() {

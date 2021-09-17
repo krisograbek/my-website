@@ -1,8 +1,6 @@
 import { Grid, Link } from "@material-ui/core";
 import React from "react";
-import ReactPlayer from "react-player";
-import models from "./data/models.json"
-import vid from "../shorter_take.mp4";
+import models from "./data/models.json";
 import Video from "./Video";
 
 function Models() {

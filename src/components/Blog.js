@@ -1,7 +1,6 @@
+import { Grid, Link } from "@material-ui/core";
 import React from "react";
-import { Link } from "@material-ui/core";
-import { Grid } from "@material-ui/core";
-import articles from "./data/articles.json"
+import articles from "./data/articles.json";
 
 
 function Blog() {
