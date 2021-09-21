@@ -1,4 +1,4 @@
-import { Grid } from "@material-ui/core";
+import { Grid, makeStyles } from "@material-ui/core";
 import React from "react";
 import { Route, Switch } from "react-router";
 import About from "./About";
@@ -9,12 +9,26 @@ import Journal from "./Journal";
 import Models from "./Models";
 import SmallWins from "./SmallWins";
 
-function Content(){
+const useStyles = makeStyles(() => ({
+  root: {
+    padding: '30px',
+    maxWidth: '100%'
+  }
+}));
+
+function Content() {
+  const classes = useStyles();
 
   return (
-    <Grid container>
-      <Grid item>
-      <Switch>
+    <Switch>
+      <Grid
+        container
+        direction="column"
+        className={classes.root}
+        alignItems="stretch"
+        alignContent="center"
+      >
+        {/* <Grid item> */}
         <Route exact path="/">
           <Home />
         </Route>
@@ -33,12 +47,14 @@ function Content(){
         <Route path="/models">
           <Models />
         </Route>
-        <Route path="/about">
-          <About />
-        </Route>
-      </Switch>
+        <Grid item>
+          <Route path="/about">
+            <About />
+          </Route>
+        </Grid>
+        {/* </Grid> */}
       </Grid>
-    </Grid>
+    </Switch>
   )
 }
 

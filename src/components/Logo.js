@@ -6,31 +6,31 @@ import { Link } from "react-router-dom";
 
 
 const useStyles = makeStyles((theme) => ({
-    grid: {
-      width: '100%',
+  grid: {
+    width: '100%',
     //   height: '80px',
-      margin: '0px'
-    },
-    paper: {
-      padding: theme.spacing(2),
+    margin: '0px'
+  },
+  paper: {
+    padding: theme.spacing(1),
     //   textAlign: 'center',
-      background: theme.palette.secondary.light
-    }
-  }));
+    background: theme.palette.secondary.light
+  }
+}));
 
-function Logo(){
-    const classes = useStyles();
+function Logo() {
+  const classes = useStyles();
 
-    return (
-      <Grid item xs={3}>
-        <Grid container spacing={4} className={classes.grid}>
-          <Link to="/">
-            <Paper className={classes.paper}>
-              KRIS O.
-            </Paper>
-          </Link>
-        </Grid>
+  return (
+    <Grid item xs={3}>
+      <Grid container className={classes.grid}>
+        <Link to="/">
+          <Paper className={classes.paper}>
+            KRIS O.
+          </Paper>
+        </Link>
       </Grid>
+    </Grid>
   );
 }
 

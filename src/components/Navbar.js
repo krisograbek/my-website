@@ -24,16 +24,14 @@ function Navbar(props) {
 
 
   return (
-    <Grid item xs={9}>
-      <Grid container className={classes.grid}>
-        {props.navList.map((listItem, key) =>
-          <Grid item className={classes.item} key={key}>
-            <Typography className={classes.paper} >
-              <MyLink text={listItem} />
-            </Typography>
-          </Grid>
-        )}
-      </Grid>
+    <Grid container className={classes.grid}>
+      {props.navList.map((listItem, key) =>
+        <Grid item className={classes.item} key={key}>
+          <Typography className={classes.paper} >
+            <MyLink text={listItem} />
+          </Typography>
+        </Grid>
+      )}
     </Grid>
   );
 }

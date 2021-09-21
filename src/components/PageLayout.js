@@ -26,10 +26,26 @@ function PageLayout() {
   ]
   return (
     <Router>
-      <Grid container spacing={4} className={classes.grid}>
-        <Logo />
-        <Navbar navList={list} />
-        <Content />
+      <Grid
+        container
+        direction="column"
+        alignItems="stretch"
+        alignContent="stretch"
+        spacing={4}
+        className={classes.grid}>
+        <Grid item xs={12}>
+          <Grid container>
+            <Grid item xs={3}>
+              <Logo />
+            </Grid>
+            <Grid item xs={9}>
+              <Navbar navList={list} />
+            </Grid>
+          </Grid>
+        </Grid>
+        <Grid item xs={12}>
+          <Content />
+        </Grid>
       </Grid>
     </Router>
   );
