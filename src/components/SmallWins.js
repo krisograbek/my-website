@@ -2,7 +2,7 @@ import React from "react";
 
 function SmallWins() {
   return (
-    <h1>SmallWins</h1>
+    <h1>Small Wins</h1>
   )
 }
 

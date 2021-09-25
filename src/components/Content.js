@@ -7,12 +7,13 @@ import FavBooks from "./FavBooks";
 import Home from "./Home";
 import Journal from "./Journal";
 import Models from "./Models";
+import Quotes from "./Quotes";
 import SmallWins from "./SmallWins";
 
 const useStyles = makeStyles(() => ({
   root: {
     padding: '30px',
-    maxWidth: '100%'
+    // maxWidth: '100%'
   }
 }));
 
@@ -43,6 +44,9 @@ function Content() {
         </Route>
         <Route path="/favbooks">
           <FavBooks />
+        </Route>
+        <Route path="/quotes">
+          <Quotes />
         </Route>
         <Route path="/models">
           <Models />
