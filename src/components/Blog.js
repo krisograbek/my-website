@@ -1,5 +1,6 @@
-import { Grid, Link } from "@material-ui/core";
+import { Grid } from "@material-ui/core";
 import React from "react";
+import { Link } from "react-router-dom";
 import articles from "./data/articles.json";
 import "./Links.css";
 
@@ -11,8 +12,10 @@ function Blog() {
       {articles.map((article, key) =>
         <Grid item key={key}>
           <Link
-            className="Link"
-            href={article.link}
+            className="LinkStyle external"
+            to={{
+              pathname: `${article.link}`
+            }}
             target="_blank"
             rel="noreferrer"
           >

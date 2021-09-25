@@ -17,7 +17,7 @@ function MyLink(props) {
 
     return (
         <Link
-            className="Link"
+            className="LinkStyle"
             to={{
                 pathname: `/${props.text}`
             }}>
