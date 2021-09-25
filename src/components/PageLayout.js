@@ -16,11 +16,12 @@ const useStyles = makeStyles((theme) => ({
 
 function PageLayout() {
   const classes = useStyles();
-  const list = [
+  const navElements = [
     "blog",
-    "journal",
-    "smallwins",
+    // "journal",
+    // "smallwins",
     "favbooks",
+    'quotes',
     "models",
     "about"
   ]
@@ -39,7 +40,7 @@ function PageLayout() {
               <Logo />
             </Grid>
             <Grid item xs={9}>
-              <Navbar navList={list} />
+              <Navbar navList={navElements} />
             </Grid>
           </Grid>
         </Grid>
