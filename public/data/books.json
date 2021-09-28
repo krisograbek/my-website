@@ -12,9 +12,9 @@
             "title": "Approaching (Almost) Any Machine Learning Problem",
             "link": "link2",
             "author": "Abhishek Thakur",
-            "authorLink": "krisograbek.github.io/favBooks",
+            "authorLink": "favBooks",
             "description": "Hellow yellow",
-            "impact": "Mega Hands-On. Abhishek is beyond cool. Like the way he writes"
+            "impact": "Very Hands-On. Abhishek's fluency is out of any scale. You should check out his YouTube channel"
         }
     ],
     "personalGrowth": [
@@ -24,7 +24,25 @@
             "author": "Stephen R. Covey",
             "authorLink": "",
             "description": "Hellow yellow",
-            "impact": "Personal #1. Made me realize my life far from an independent one. I learned the word \"proactive\" which became a life-changer. jhjgjhgjhhjfhgf"
+            "impact": "Personal #1. The book helped me redefining Independence. I learned the word \"proactive\" which became a life-changer.",
+            "topQuotes": [
+                "We see the world, not as it is, but as we are ─ or, as we are conditioned to see it.",
+                "If I really want to improve my situation, I can work on the one thing over which I have control - myself.",
+                "Happiness, like unhappiness, is a proactive choice."
+            ]
+        },
+        {
+            "title": "How to Win Friends & Influence People",
+            "link": "link3",
+            "author": "Dale Carnegie",
+            "authorLink": "",
+            "description": "Hellow yellow",
+            "impact": "Personal #1. Made me realize my life far from an independent one. I learned the word \"proactive\" which became a life-changer.",
+            "topQuotes": [
+                "To be interesting, be interested.",
+                "Only knowledge that is used sticks in your mind.",
+                "There is only one way to get the best of an argument -- and that is to avoid it."
+            ]
         },
         {
             "title": "You Are a Badass",
