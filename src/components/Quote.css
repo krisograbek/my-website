@@ -8,7 +8,7 @@
 blockquote {
   margin: 0 auto;
   padding: 1em;
-  border-left: 5px solid #999;
+  border-left: 5px solid #777;
 }
 blockquote:before {
   display: none;
@@ -17,7 +17,7 @@ blockquote:not(:first-of-type) {
   margin-top: .5em;
 }
 blockquote p {
-  color: #888;
+  color: #aaa;
   font-size: 12pt;
   line-height: 1.4;
   font-family: 'PT Serif', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
@@ -25,7 +25,7 @@ blockquote p {
 blockquote footer {
   margin-top: .5em;
   padding: 0;
-  color: #777;
+  color: #999;
   font-size: 12pt;
   text-align: left;
   font-style: italic;
@@ -36,7 +36,7 @@ blockquote footer:before {
 blockquote:nth-of-type(even) {
   text-align: right;
   border-left: none;
-  border-right: 5px solid #999;
+  border-right: 5px solid #777;
 }
 blockquote:nth-of-type(even) footer {
   text-align: right;
