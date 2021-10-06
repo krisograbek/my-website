@@ -1,37 +1,68 @@
-import { Grid } from "@material-ui/core";
+import { Grid, makeStyles, Typography } from "@material-ui/core";
 import React from "react";
 import { Link } from "react-router-dom";
 import books from './data/books.json';
 import "./Links.css";
 
+const useStyles = makeStyles(() => ({
+  author: {
+    fontWeight: 800,
+    fontSize: 'calc(10px + 1vmin)'
+  }
+}));
+
 function FavBooks() {
+  const classes = useStyles();
+
   const bookKeys = Object.keys(books);
 
   return (
-    <Grid item>
+    <Grid item xs={8}>
       <h1>Favorite Books</h1>
-      {bookKeys.map((bookKey, id) =>
-        <div key={id}>
-          <h4>{bookKey}</h4>
-          {books[bookKey].map((book, key) =>
-            <Grid item key={key}>
-              <Link
-                className="LinkStyle external"
-                href={book.link}
-                target="_blank"
-                rel="noreferrer"
-              >
-                {book.title}
-              </Link> by
-              <span> {book.author} </span>
-              {/* <p>What's this book about? {book.description}</p> */}
-              <p>Why this book?</p>
-              <div>{book.impact}</div>
-              <hr />
+      <Grid
+        container
+        direction="column"
+        spacing={1}
+      >
+        {bookKeys.map((bookKey, id) =>
+          <Grid item key={id}>
+            <h4>{bookKey}</h4>
+            <Grid
+              container
+              direction="column"
+              spacing={1}
+            >
+              {books[bookKey].map((book, key) =>
+                <Grid item key={key}>
+                  <Grid
+                    container
+                    direction="column"
+                    spacing={1}
+                  >
+                    <Grid item>
+                      <Link
+                        className="LinkStyle external"
+                        href={book.link}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        {book.title}
+                      </Link>
+                      <Typography component="div" className={classes.author}>{book.author} </Typography>
+                    </Grid>
+                    <Grid item>
+                      <Typography>Why this book?</Typography>
+                    </Grid>
+                    <Grid item>
+                      <Typography>{book.impact}</Typography>
+                    </Grid>
+                  </Grid>
+                </Grid>
+              )}
             </Grid>
-          )}
-        </div>
-      )}
+          </Grid>
+        )}
+      </Grid>
     </Grid >
   )
 }

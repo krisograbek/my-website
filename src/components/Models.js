@@ -5,7 +5,7 @@ import Video from "./Video";
 
 function Models() {
   return (
-    <Grid item>
+    <Grid item xs={8}>
       <h1>Models</h1>
       <Grid container>
         {models.map((model) => {

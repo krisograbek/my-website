@@ -1,9 +1,9 @@
 .LinkStyle {
-  color: azure;
+  color: #aaa;
   font-weight: bold;
   text-decoration: none;
 }
 
 .external {
-  color: deepskyblue;
+  color: rgb(72, 186, 224)
 }
