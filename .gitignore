@@ -22,4 +22,5 @@ deploysteps.txt
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-deploy.sh
+
+shell_scripts

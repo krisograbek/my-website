@@ -37,7 +37,8 @@
             "author": "Dale Carnegie",
             "authorLink": "",
             "description": "Hellow yellow",
-            "impact": "Personal #1. Made me realize my life far from an independent one. I learned the word \"proactive\" which became a life-changer.",
+            "impact": ["Personal #1. Made me realize my life far from an independent one. I learned the word \"proactive\" which became a life-changer. ",
+             "Thanks to the book"],
             "topQuotes": [
                 "To be interesting, be interested.",
                 "Only knowledge that is used sticks in your mind.",
