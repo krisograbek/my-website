@@ -24,6 +24,21 @@ function FavBooks() {
         direction="column"
         spacing={1}
       >
+        <Grid item>
+          Quote: Read more. It allows you to borrow someone else's brain.
+        </Grid>
+        <Grid item>
+          <Typography>
+            The list of my favorite books. To each one, I write why it made this list.
+            For categories other than Data Science, I explain how a book impacted my life.
+            I've split them into {bookKeys.length} categories:
+            <ul>
+              {bookKeys.map((cat) =>
+                <li>{cat}</li>
+              )}
+            </ul>
+          </Typography>
+        </Grid>
         {bookKeys.map((bookKey, id) =>
           <Grid item key={id}>
             <h4>{bookKey}</h4>
