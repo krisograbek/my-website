@@ -2,8 +2,9 @@
   color: #aaa;
   font-weight: bold;
   text-decoration: none;
+  font-size: calc(8px + 1vmin);
 }
 
 .external {
-  color: rgb(72, 186, 224)
+  color: rgb(72, 186, 224);
 }

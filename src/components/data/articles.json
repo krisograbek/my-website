@@ -1,5 +1,15 @@
 [
     {
+        "link": "https://heartbeat.comet.ml/cost-sensitive-learning-for-imbalanced-data-93370404a54b",
+        "title": "Cost-sensitive Learning for Imbalanced Data",
+        "description": [
+            "Imbalanced data is a common yet challenging problem in Machine Learning. ",
+            "Multi-class classification adds another level of complexity. ",
+            "I this article, I show a possible way of dealing with the problems - cost-sensitive learning. ",
+            "You can learn how to implement it using scikit-learn. "
+        ]
+    },
+    {
         "link": "https://kris-ograbek-nlp.medium.com/pay-attention-to-your-neighbors-a-simple-approach-to-the-part-of-speech-tagging-f8aa4af0b313",
         "title": "Pay Attention to Your Neighbors",
         "description": [

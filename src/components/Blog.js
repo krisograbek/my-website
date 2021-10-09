@@ -15,7 +15,8 @@ function Blog() {
         spacing={2}
       >
         <Grid item>
-          <Typography>I enjoy writing. For me it is the best way to communicate. I've lost fluency in English.
+          <Typography>
+            I enjoy writing. For me it is the best way to communicate. I've lost fluency in English.
             Writing gives me a needed time to think and tell something the right way. So far I wrote {articles.length} articles.
             Here's the full list of them along with a short description.
           </Typography>
