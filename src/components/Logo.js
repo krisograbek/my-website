@@ -26,7 +26,7 @@ function Logo() {
       <Grid container className={classes.grid}>
         <Link to="/">
           <Paper className={classes.paper}>
-            Kris Ograbek
+            KO
           </Paper>
         </Link>
       </Grid>
