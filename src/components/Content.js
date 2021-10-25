@@ -12,7 +12,8 @@ import SmallWins from "./SmallWins";
 
 const useStyles = makeStyles(() => ({
   root: {
-    padding: '30px',
+    // padding: '30px',
+    marginTop: '32px',
     // maxWidth: '100%'
   }
 }));

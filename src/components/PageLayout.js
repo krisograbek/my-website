@@ -1,7 +1,9 @@
-import { Grid, makeStyles } from "@material-ui/core";
+import { AppBar, Grid, makeStyles } from "@material-ui/core";
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import Content from "./Content";
+import Footer from "./Footer";
+import Header from "./Header";
 import Logo from "./Logo";
 import Navbar from "./Navbar";
 
@@ -35,14 +37,7 @@ function PageLayout() {
         spacing={4}
         className={classes.grid}>
         <Grid item xs={12}>
-          <Grid container>
-            <Grid item xs={3}>
-              <Logo />
-            </Grid>
-            <Grid item xs={9}>
-              <Navbar navList={navElements} />
-            </Grid>
-          </Grid>
+          <Header />
         </Grid>
         <Grid item xs={12}>
           <Content />

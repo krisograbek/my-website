@@ -14,18 +14,25 @@ const useStyles = makeStyles((theme) => ({
   },
   paper: {
     padding: theme.spacing(2),
-    textAlign: 'center',
-    // background: theme.palette.success.light,
+    // textAlign: 'center',
   }
 }));
 
-function Navbar(props) {
+function Navbar() {
   const classes = useStyles();
 
-
+  const navElements = [
+    "blog",
+    // "journal",
+    // "smallwins",
+    "favbooks",
+    'quotes',
+    "models",
+    "about"
+  ]
   return (
     <Grid container className={classes.grid}>
-      {props.navList.map((listItem, key) =>
+      {navElements.map((listItem, key) =>
         <Grid item className={classes.item} key={key}>
           <Typography className={classes.paper} >
             <MyLink text={listItem} />
