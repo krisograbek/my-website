@@ -6,10 +6,8 @@ import ContactIcons from './ContactIcons'
 function Footer() {
   return (
     <Grid container
-      // alignContent="flex-end"
-      alignItems="flex-end"
       justifyContent="flex-end"
-      spacing={1}
+      spacing={2}
     >
       <ContactIcons />
     </Grid>

@@ -9,9 +9,9 @@ const links = [
   { "link": "https://github.com/krisograbek", "icon": FaGithub },
   { "link": "https://medium.com/@kris-ograbek-nlp", "icon": FaMedium },
   { "link": "https://stackoverflow.com/users/15191870/krisograbek", "icon": FaStackOverflow },
-  { "link": "https://www.reddit.com/user/krispudzian", "icon": FaReddit },
   { "link": "https://www.hackerrank.com/krzysztof_ograb1", "icon": FaHackerrank },
   { "link": "https://www.kaggle.com/ograbekk", "icon": FaKaggle },
+  { "link": "https://www.reddit.com/user/krispudzian", "icon": FaReddit },
 ]
 
 function ContactIcons() {
