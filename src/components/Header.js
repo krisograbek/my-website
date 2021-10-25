@@ -1,4 +1,5 @@
 import { AppBar, Grid, makeStyles } from '@material-ui/core';
+import { grey } from '@material-ui/core/colors';
 import React from 'react';
 import Contacts from './Contacts';
 import Logo from './Logo';
@@ -7,8 +8,8 @@ import Navbar from './Navbar';
 
 const useStyles = makeStyles((theme) => ({
   header: {
-    padding: '8px',
-    backgroundColor: '#33373f'
+    // padding: '8px',
+    backgroundColor: grey[800]
   }
 }));
 
