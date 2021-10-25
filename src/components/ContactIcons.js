@@ -28,7 +28,7 @@ function ContactIcons() {
             target="_blank"
             rel="noreferrer"
           >
-            <Icon size='2em' />
+            <Icon />
           </Link>
         </Grid>
       )

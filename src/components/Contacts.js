@@ -3,7 +3,7 @@ import React from 'react'
 import ContactIcons from './ContactIcons'
 
 
-function Footer() {
+function Contacts() {
   return (
     <Grid container
       // alignContent="flex-end"
@@ -16,4 +16,4 @@ function Footer() {
   )
 }
 
-export default Footer
+export default Contacts

@@ -1,6 +1,5 @@
 import { Grid, makeStyles } from "@material-ui/core";
 import React from "react";
-import about from "./data/about.json"
 import Emoji from "./Emoji";
 
 
@@ -21,10 +20,10 @@ function About() {
   const classes = useStyles();
 
   return (
-    <Grid item xs={10}>
+    <Grid item xs={8}>
       <h1>About</h1>
       <Grid
-        className={classes.aboutRoot}
+        // className={classes.aboutRoot}
         container
         direction="column"
         alignItems="center"
@@ -33,7 +32,9 @@ function About() {
       >
         <Grid item>
           <Grid container>
-            <Grid item className={classes.textItem}>
+            <Grid item
+            // className={classes.textItem}
+            >
               <div>My name is Kris. Actually, it's Krzysztof but I've seen it misspelled in 2 thousand different ways.
                 So, let's stick with Kris</div>
             </Grid>
